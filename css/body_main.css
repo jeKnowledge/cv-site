@@ -1,0 +1,53 @@
+@import url(http://fonts.googleapis.com/css?family=Vollkorn:400,700);
+@import url("reset.css");
+@import url("header.css");
+@import url("footer.css");
+@import url("menus.css");
+
+html, body {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.image-resize {
+  margin-right: 0px;
+  margin-top: 30px;
+  margin-left: 0px;
+  display: block;
+}
+
+
+.image-resize img{
+  max-width: 100%;
+  height: auto;
+}
+
+.button-container {
+  border: 3px solid black;
+  padding-bottom: 1%;
+  margin-top: 100px;
+  margin-right:auto;
+  padding-top: 1%;
+  margin-left:auto;
+  width: 13%;
+}
+
+.button-container h1 {
+  font-size: 2.200em;
+  text-align: center;
+  background: white;
+}
+
+.text-box {
+  margin-right: 20%;
+  margin-left: 20%;
+  margin-top: 5%;
+}
+
+.text-prop {
+  text-decoration: none;
+  text-align: justify;
+  line-height:1.200em;
+  font-size: 2em;
+}

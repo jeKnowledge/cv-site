@@ -1,0 +1,61 @@
+@import url("reset.css");
+
+/*Footer bar*/
+
+.footer {
+  color: rgb(150,150,150);
+  position: absolute;
+  background: black;
+  margin-top: 10%;
+  height: 250px;
+  width: 100%;
+}
+
+.grid-container {
+  margin-right: auto;
+  text-align: center;
+  margin-left: auto;
+  margin-top: 3%;
+  width: 95%;
+}
+
+.row {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+#contacts {
+  text-align: left;
+}
+
+#contacts h3 {
+  font-size: 1.500em; 
+  margin-bottom: 6%;
+}
+
+#contacts h4 {
+  font-family: Volkorn;
+  letter-spacing: 1px;
+  padding-bottom: 4%;
+  font-size: 1.000em;
+}
+
+hr {
+  border-top: 2px solid rgb(150, 150, 150);
+  width: 20%;
+}
+
+#facebook h1 {
+ font-size: 1.88em; 
+ padding-top: 2%;
+}
+
+#cpy {
+  text-align: right;
+}
+
+#cpy h3 {
+  text-transform: capitalize;
+  font-size: 1.250em;
+  margin-bottom: 7%;
+}
