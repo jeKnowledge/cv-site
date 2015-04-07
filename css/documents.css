@@ -1,7 +1,37 @@
 .text-edition:link, .text-edition:visited, .text-edition{
-  color: black;
+  font-variant: small-caps;
   text-decoration: none;
+  letter-spacing: 1px;
+  font-size: 3em;
+  color: black;
+}
+
+.line-separator {
+  border-top: 2px solid black;
+  width: 10%;
+}
+
+.container-fluid {
+  margin-top: 7%;
+}
+
+.text-bx p {
+  padding-right: 20%;
+  padding-left: 20%;
   font-size: 2em;
 }
 
+.text-bx2 {
+  margin-top: 5%;
+}
+
+.text-bx2 p {
+  padding-right: 15%;
+  padding-left: 15%;
+  font-size: 2em;
+}
+
+.doc-info {
+  letter-spacing: 1px;
+}
 

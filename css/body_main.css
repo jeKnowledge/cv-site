@@ -1,14 +1,15 @@
 @import url(http://fonts.googleapis.com/css?family=Vollkorn:400,700);
-@import url("reset.css");
+@import url("documents.css");
 @import url("header.css");
 @import url("footer.css");
+@import url("reset.css");
 @import url("menus.css");
-@import url("documents.css");
 
 html, body {
   width: 100%;
   padding: 0;
   margin: 0;
+  font-family: Volkorn;
 }
 
 .image-resize {
@@ -25,30 +26,31 @@ html, body {
 }
 
 .button-container {
-  border: 3px solid black;
+  border: 2px solid black;
   padding-bottom: 1%;
   margin-top: 100px;
   margin-right:auto;
-  padding-top: 1%;
   margin-left:auto;
+  padding-top: 1%;
   width: 15%;
 }
 
 .button-container h1 {
-  font-size: 2.200em;
   text-align: center;
+  font-size: 2.2rem;
   background: white;
 }
 
 .text-box {
   margin-right: 20%;
   margin-left: 20%;
-  margin-top: 5%;
+  margin-top: 2%;
 }
 
 .text-prop {
   text-decoration: none;
   text-align: justify;
-  line-height:1.200em;
+  letter-spacing: 1px;
+  line-height:1.2em;
   font-size: 2em;
 }

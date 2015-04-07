@@ -1,14 +1,13 @@
-@import url(http://fonts.googleapis.com/css?family=Vollkorn:400,700);
 
 /*Header bar*/
 
 body {
   font-family: Volkorn;
   line-height: 1.25em;
-  font-size: 1.05em;
-  background: white;
   text-align: center;
   position: relative;
+  font-size: 1.05em;
+  background: white;
 
 }
 
@@ -29,9 +28,9 @@ nav {
 }
 
 .menu {
-  margin-right: 70px;
+  margin-right: 10%;;
   list-style: none;
-  font-size: 1.300em;
+  font-size: 1.4em;
 }
 
 .menu li {
@@ -43,7 +42,6 @@ nav {
 .font-spec {
   font-variant: small-caps;
   letter-spacing: 1px;
-  font-family: Volkorn;
 }
 
 .sections a:link, a:visited, a {
@@ -58,10 +56,10 @@ nav {
 #title {
   text-transform: uppercase;
   text-decoration: none;
-  margin-left: 1%;
   text-align: center;
+  font-size: 1.7em;
   margin-top: 32px;
-  font-size: 1.700em;
+  margin-left: 1%;
   display: block;
   color: white;
   width: 400px;
