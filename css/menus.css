@@ -26,7 +26,7 @@
   font-variant: small-caps;
   content: "Rasganço";
   letter-spacing: 1px;
-  font-size: 2.500em;
+  font-size: 3.500em;
   text-align:center;
   padding-top: 30%;
   color: black;
@@ -38,7 +38,7 @@
   letter-spacing: 1px;
   text-align:center;
   padding-top: 30%;
-  font-size: 2.5em;
+  font-size: 3.5em;
   color: black;
 }
 
@@ -48,14 +48,14 @@
   text-align:center;
   content: "Pasta";
   padding-top: 30%;
-  font-size: 2.5em;
+  font-size: 3.5em;
   color: black;
 }
 
 #costumes:before {
   content: "Usos e Costumes";
   padding-top: 30%;
-  font-size: 2.500em;
+  font-size: 3.500em;
   color: black;
   font-family: Volkorn;
   font-variant: small-caps;
@@ -66,7 +66,7 @@
 #hierarchy:before {
   content: "Hierarquia";
   padding-top: 30%;
-  font-size: 2.500em;
+  font-size: 3.5em;
   color: black;
   font-family: Volkorn;
   font-variant: small-caps;
@@ -77,7 +77,7 @@
 #insignias:before {
   content: "Insignias";
   padding-top: 30%;
-  font-size: 2.500em;
+  font-size: 3.500em;
   color: black;
   font-family: Volkorn;
   font-variant: small-caps;
@@ -88,7 +88,7 @@
 #latada:before {
   content: "Latada";
   padding-top: 30%;
-  font-size: 2.800em;
+  font-size: 4em;
   color:black;
   font-family: Volkorn;
   font-variant: small-caps;
@@ -99,7 +99,7 @@
 #queima:before {
   content: "Queima";
   padding-top: 30%;
-  font-size: 2.800em;
+  font-size: 4em;
   color:black;
   font-family: Volkorn;
   font-variant: small-caps;

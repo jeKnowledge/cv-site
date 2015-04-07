@@ -28,7 +28,7 @@ html, body {
 .button-container {
   border: 2px solid black;
   padding-bottom: 1%;
-  margin-top: 100px;
+  margin-top: 8%;
   margin-right:auto;
   margin-left:auto;
   padding-top: 1%;
@@ -51,6 +51,6 @@ html, body {
   text-decoration: none;
   text-align: justify;
   letter-spacing: 1px;
-  line-height:1.2em;
+  line-height:1.5em;
   font-size: 2em;
 }
