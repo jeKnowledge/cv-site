@@ -10,11 +10,10 @@
     <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css" charset="utf-8">
     <link rel="stylesheet" href="css/body_main.css" type="text/css" charset="utf-8">
     <link rel="stylesheet" href="css/hover.css" type="text/css"charset="utf-8">
-    
+        
   </head>
 
   <body>
-
 
     <!--Header bar-->
     <header>
@@ -23,11 +22,11 @@
 
       <nav>
        <ul class="menu">
-        <li class="sections"><a href="#" class="font-spec">quem somos</a></li>
-        <li class="sections"><a href="#" class="font-spec">tradições</a></li>
-        <li class="sections"><a href="#" class="font-spec">festas</a></li>
-        <li class="sections"><a href="#" class="font-spec">documentos</a></li>
-        <li class="sections"><a href="#" class="font-spec">contactos</a></li>
+        <li class="sections"><a href="#" class="font-spec">quem somos <hr id="whoare"/></a></li>
+        <li class="sections"><a href="#" class="font-spec">tradições <hr id="tradicoes"/></a></li>
+        <li class="sections"><a href="#" class="font-spec">festas <hr id="party"/></a></li>
+        <li class="sections"><a href="#" class="font-spec">documentos <hr id="docs"/></a></li>
+        <li class="sections"><a href="#" class="font-spec">contactos <hr id="contact"/></a></li>
       </ul>
       </nav>
     </header>
@@ -37,7 +36,7 @@
       <img src="img/im5.jpg"/>
     </div>
 
-    <div class="button-container">
+    <div id="quem-somos" class="button-container">
       <h1 class="font-spec">quem somos</h1>  
     </div>
 
@@ -55,7 +54,7 @@
       <p class="text-prop">Ao Conselho de Veteranos compete tomar todas as decisões relacionadas com a praxe, que achar oportunas e aconselháveis, legislando nos casos omissos. O Conselho de Veteranos é presidido pelo Dux Veteranorum.</p>
     </div>
 
-    <div class="button-container">
+    <div id="traditions" class="button-container">
        <h1 class="font-spec">tradições</h1> 
     </div>
 
@@ -96,7 +95,7 @@
       </div>
     </div>
 
-    <div class="button-container">
+    <div id="festas" class="button-container">
        <h1 class="font-spec">festas académicas</h1> 
     </div>
 
@@ -115,7 +114,7 @@
       </div>
     </div>
 
-    <div class="button-container">
+    <div id="documents" class="button-container">
        <h1 class="font-spec">documentos</h1> 
     </div>
 
@@ -144,7 +143,7 @@
           </p> 
         </div>
       </div> 
-      <div class="row">
+      <div id="finalrow" class="row">
         <div class="col-md-3">
           
         </div>
@@ -168,7 +167,7 @@
       </div>
     </div>
 
-    <div class="footer">
+    <div id="foot" class="footer">
       <div class="grid-container">
      <div class="row"> 
           <div id="contacts" class="col-md-4">
@@ -192,6 +191,10 @@
       </div> 
       </div>
     </div>
+
+    <!--Including js files-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/navbar.js"></script>
         
   </body>
 

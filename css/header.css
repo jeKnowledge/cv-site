@@ -38,6 +38,11 @@ nav {
   float:left;
 }
 
+.menu hr {
+  border-top: 2px solid black;
+  width: 100%;
+}
+
 /*all the font specs come here*/
 .font-spec {
   font-variant: small-caps;
