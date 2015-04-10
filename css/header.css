@@ -8,7 +8,6 @@ body {
   position: relative;
   font-size: 1.05em;
   background: white;
-
 }
 
 header {
@@ -21,14 +20,12 @@ header {
   top: 0;
 }
 
-
-
 nav {
   float: right;
+  margin-right: 2%!important;
 }
 
 .menu {
-  margin-right: 10%;;
   list-style: none;
   font-size: 1.4em;
 }
@@ -70,4 +67,34 @@ nav {
   width: 400px;
   height: 40px;
   float: left;
+}
+
+#menu-button {
+  display: none;
+  border: 2px solid white;
+  width: 100%;
+  padding: 10%;
+}
+
+#menu-button h1 {
+  color: white;
+  font-size: 2rem;
+}
+
+
+
+@media screen and (max-width: 930px) {
+  .menu {
+    display: none;
+  }
+
+  #menu-button {
+    display: block;
+  }
+
+  #navigator {
+    margin-top: 2%;
+    padding-right: 5%;
+  }
+
 }
