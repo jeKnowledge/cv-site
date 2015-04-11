@@ -15,10 +15,7 @@ $(document).scroll(function () {
                    '#documents': '#docs',
                    '#foot': '#contact'};
 
-  console.log(scroll_bot);
-
   $.each(sections, function (key, value) {
-    console.log($(key).position().top);
     if (scroll_bot > $(key).position().top) {
       resetCSS(sections);
       $(value).css({
