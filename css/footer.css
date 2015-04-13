@@ -57,8 +57,24 @@
   margin-bottom: 7%;
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 990px) {
   .footer {
-    height:580px;
+    height:14%;
   }  
+
+  #footer-divs div {
+    padding-top: 3%; 
+  }
+}
+
+@media screen and (max-width: 766px) {
+  .footer {
+    height: 9%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .footer {
+    height: 10%;
+  }
 }
