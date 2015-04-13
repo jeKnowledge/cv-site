@@ -1,4 +1,4 @@
-$(document).ready(function() {
+function scrolling() {
   $('a[href^="#"]').on('click',function (e) {
     e.preventDefault();
     
@@ -7,4 +7,4 @@ $(document).ready(function() {
 
     $('html, body').stop().animate({'scrollTop' : $target.offset().top - 100}, 900, 'swing');
     });
-});
+}

@@ -25,20 +25,34 @@ html, body {
   height: auto;
 }
 
+.quem-somos-button-container {
+  border: 2px solid black;
+  padding: 1%;
+  margin-top: 8%;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 170px;
+}
+
+.quem-somos-button-container {
+  white-space: nowrap;
+  text-align: center;
+  font-size: 2.5em;
+  background: white;
+}
+
 .button-container {
   border: 2px solid black;
-  padding-bottom: 1%;
-  margin-top: 8%;
+  padding:1%;
+  margin-top: 15%;
   margin-right:auto;
   margin-left:auto;
-  padding-top: 1%;
-  width: 15%;
+  width: 170px;
 }
 
 .button-container h1 {
   text-align: center;
-  font-size: 30%;
-  font-size: 2.2vw;
+  font-size: 2.5em;
   background: white;
 }
 
@@ -50,7 +64,7 @@ html, body {
 
 .text-prop {
   text-decoration: none;
-  text-align: justify;
+  text-align: left;
   letter-spacing: 1px;
   line-height:1.5em;
   font-size: 2em;
@@ -58,4 +72,13 @@ html, body {
 
 #finalrow {
   margin-bottom: 10%;
+}
+
+@media screen and (max-width: 500px) {
+  
+  .text-prop {
+    margin-top: 10%;
+    font-size: 1.3em;
+  }
+  
 }

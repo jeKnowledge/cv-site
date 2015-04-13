@@ -11,8 +11,8 @@
   width: 10%;
 }
 
-.container-fluid {
-  margin-top: 7%;
+#documents-section {
+  margin-top:0%;
 }
 
 .text-bx p {
@@ -25,6 +25,10 @@
   margin-top: 5%;
 }
 
+.text-bx {
+  padding-top: 5%;
+}
+
 .text-bx2 p {
   padding-right: 15%;
   padding-left: 15%;
@@ -35,3 +39,25 @@
   letter-spacing: 1px;
 }
 
+@media screen and (max-width: 500px) {
+  
+ .text-edition:link, .text-edition:visited, .text-edition {
+    font-size: 2em;
+  }
+
+  .text-bx2 p {
+    font-size: 1.1em;
+    padding-left: 0;
+    padding-right: 0;
+  } 
+
+  .text-bx p {
+    font-size: 1.1em;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  #bigger {
+    padding-top:5%;
+  }
+}

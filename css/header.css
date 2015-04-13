@@ -25,6 +25,12 @@ nav {
   margin-right: 2%!important;
 }
 
+#title-container {
+  float: left;
+  margin-left: 2%;
+  margin-top:30px;
+}
+
 .menu {
   list-style: none;
   font-size: 1.4em;
@@ -58,43 +64,71 @@ nav {
 #title {
   text-transform: uppercase;
   text-decoration: none;
-  text-align: center;
-  font-size: 1.7em;
-  margin-top: 32px;
-  margin-left: 1%;
+  font-size: 2em;
   display: block;
   color: white;
-  width: 400px;
-  height: 40px;
   float: left;
 }
 
-#menu-button {
-  display: none;
-  border: 2px solid white;
-  width: 100%;
-  padding: 10%;
+#menu-container {
+  display:none;
 }
 
-#menu-button h1 {
-  color: white;
-  font-size: 2rem;
+a:hover {
+  text-decoration: none;
 }
 
 
-
-@media screen and (max-width: 930px) {
+@media screen and (max-width: 550px) {
   .menu {
     display: none;
   }
 
-  #menu-button {
+  #title {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 2em;
+    margin-left: 10%;
+    display: block;
+    color: white;
+    float: left;
+  }
+
+  nav {
+    margin-top: 5%!important;
+    margin-right: 10%!important;
+  }
+  
+  #menu-container {
     display: block;
   }
 
-  #navigator {
-    margin-top: 2%;
-    padding-right: 5%;
+  #menu-font {
+    color: white;
+    font-size: 2em;
+    text-align: center;
+  }
+
+  #menu-bar {
+   border: 1px solid white;
+   width: 95%;
+   margin-top: 10%;
+  }
+
+}
+
+@media screen and (max-width: 500px) {
+
+  header {
+    height: 50px;
+  }
+
+  nav {
+    margin-top: 10px!important;
+  }
+
+  #title-container {
+    margin-top: 10px;
   }
 
 }

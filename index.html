@@ -4,7 +4,7 @@
 
   <head>
     <meta charset="utf-8">
-    <!--<meta http-equiv="refresh" content="5"/>-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable = no">
     <title>Conselho de Veteranos</title>
 
     <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css" charset="utf-8">
@@ -16,8 +16,9 @@
 
     <!--Header bar-->
     <header>
-
-      <a href="#navigator" id="title" class="font-spec">magnum consilium veteranorum</a>
+      <div id="title-container">
+        <a href="#navigator" id="title" class="font-spec">magnum consilium veteranorum</a>
+      </div>
 
       <nav> 
        <ul class="menu">
@@ -27,10 +28,10 @@
         <li class="sections"><a href="#documents" class="font-spec">documentos <hr id="docs"/></a></li>
         <li class="sections"><a href="#contacts" class="font-spec">contactos <hr id="contact"/></a></li>
        </ul>
-      <div id="menu-button">
-          <h1 id="menu-font" class="font-spec">menu</h1>
-      </div>
-
+       <div id="menu-container">
+         <a href="#" id="menu-font" class="font-spec">menu</a>
+         <hr id="menu-bar" />
+       </div>
       </nav>
     </header>
     <!--End of Header Bar-->
@@ -39,7 +40,7 @@
       <img src="img/im5.jpg"/>
     </div>
 
-    <div id="quem-somos" class="button-container">
+    <div id="quem-somos" class="quem-somos-button-container">
       <h1 class="font-spec">quem somos</h1>  
     </div>
 
@@ -63,37 +64,43 @@
 
     <div class="container-fluid">
       <div class="row">
-        <div class="col-md-4 col-xs-6 image-container">
+        <div class="mobile-container col-md-4 col-sm-6 col-xs-12 image-container">
           <a href="#" id="rasganco" class="thumbnail hvr-sweep-to-top">
             <img src="img/im1.jpg" class="img-responsive"/> 
           </a>
+          <h2 class="minimum">rasganco</h2>
         </div>
-        <div class="col-md-4 col-xs-6 image-container">
+        <div class="mobile-container col-md-4 col-sm-6 col-xs-12 image-container">
           <a href="#" id="candb" class="thumbnail hvr-sweep-to-top">
             <img src="img/im2.jpg" class="img-responsive"/> 
           </a>
+          <h2 class="minimum">capa e batina</h2>
         </div>
-        <div class="col-md-4 col-xs-12 image-container">
+        <div class="mobile-container col-md-4 col-sm-12 col-xs-12 image-container">
           <a href="#" id="pasta" class="thumbnail hvr-sweep-to-top">
             <img src="img/im3.jpg" class="img-responsive"/> 
           </a>
+          <h2 class="minimum">pasta</h2>
         </div>
       </div>
       <div class="row">
-        <div class="col-md-4 col-xs-6 image-container">
+        <div class="mobile-container col-md-4 col-sm-6 col-xs-12 image-container">
           <a href="#" id="costumes" class="thumbnail hvr-sweep-to-top">
             <img src="img/im4.jpg" class="img-responsive"/> 
           </a>
+          <h2 class="minimum">usos e costumes</h2>
         </div> 
-        <div class="col-md-4 col-xs-6 image-container">
+        <div class="mobile-container col-md-4 col-sm-6 col-xs-12 image-container">
           <a href="#" id="hierarchy" class="thumbnail hvr-sweep-to-top">
             <img src="img/im7.jpg" class="img-responsive"/> 
           </a>
+          <h2 class="minimum">hierarquia</h2>
         </div>
-        <div class="col-md-4 col-xs-12 image-container">
+        <div class="mobile-container col-md-4 col-sm-12 col-xs-12 image-container">
           <a href="#" id="insignias" class="thumbnail hvr-sweep-to-top">
             <img src="img/im6.jpg" class="img-responsive"/> 
           </a>
+          <h2 class="minimum">insignias</h2>
         </div>
       </div>
     </div>
@@ -104,12 +111,12 @@
 
     <div class="container-fluid">
       <div class="row">
-        <div class="col-md-6 col-xs-6 image-container">
+        <div class="col-md-6 col-sm-6 col-xs-12 image-container">
          <a href="#" id="latada" class="thumbnail hvr-sweep-to-top">
            <img src="img/im6.jpg" class="img-responsive"/>
          </a> 
         </div> 
-        <div class="col-md-6 col-xs-6 image-container">
+        <div class="col-md-6 col-sm-6 col-xs-12 image-container">
           <a href="#" id="queima" class="thumbnail hvr-sweep-to-top">
            <img src="img/im6.jpg" class="img-responsive"/>
           </a>
@@ -121,23 +128,23 @@
        <h1 class="font-spec">documentos</h1> 
     </div>
 
-    <div class="container-fluid">
+    <div id="documents-section" class="container-fluid">
       <div class="row">
-        <div class="col-md-4 col-xs-6 text-bx">
+        <div class="col-md-4 col-sm-6 col-xs-12 text-bx">
          <a href="#" class="text-edition font-spec">
            convocatius
          </a>
           <hr class="line-separator"/>
           <p class="doc-info">Os Convocatios são documentos destinados a convocar o Conselho de Veteranos e são afixados com uma antecedência mínima de 48 horas na porta da AAC.</p>
         </div> 
-        <div class="col-md-4 col-xs-6 text-bx">
+        <div class="col-md-4 col-sm-6 col-xs-12 text-bx">
           <a href="#" class="text-edition font-spec">
             decretus 
           </a>
           <hr class="line-separator"/>
           <p class="doc-info">Os Decretus são documentos redigidos em latim macarrónico e contêm deliberações do Conselho de Veteranos.</p>
         </div>
-        <div class="col-md-4 col-xs-12 text-bx">
+        <div id="bigger" class="col-md-4 col-sm-12 col-xs-12 text-bx">
           <a href="#" class="text-edition font-spec">
             informatius 
           </a>
@@ -150,14 +157,14 @@
         <div class="col-md-3">
           
         </div>
-        <div class="col-md-3 col-xs-6 text-bx2">
+        <div class="col-md-3 col-sm-6 col-xs-12 text-bx2">
           <a href="#" class="text-edition font-spec">
           código da praxe 
           </a>
           <hr class="line-separator"/>
           <p class="doc-info">O código da Praxe é o documento que que contem os usos e costumes constituintes da Praxe e todas as regras a serm seguidas.</p>
         </div>
-        <div class="col-md-3 col-xs-6 text-bx2">
+        <div class="col-md-3 col-sm-6 col-xs-12 text-bx2">
           <a href="#" class="text-edition">
           outros 
           </a>
@@ -199,6 +206,8 @@
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="js/navbar.js"></script>
     <script src="js/scrolling.js"></script>
+    <script src="js/mcv.js"></script>
+    <script src="js/docready.js"></script>
         
   </body>
 
