@@ -29,6 +29,7 @@ nav {
   float: left;
   margin-left: 2%;
   margin-top:30px;
+  width:430px;
 }
 
 .menu {
@@ -78,8 +79,20 @@ a:hover {
   text-decoration: none;
 }
 
+@media screen and (max-width: 920px) {
+  #title-container {
+    width: 200px;
+    margin-top: 15px;
+  }
 
-@media screen and (max-width: 550px) {
+  #title {
+    font-size: 1.5em;
+    width:50%;
+    text-align:left;
+  }
+}
+
+@media screen and (max-width: 620px) {
   .menu {
     display: none;
   }
@@ -87,7 +100,6 @@ a:hover {
   #title {
     text-transform: uppercase;
     text-decoration: none;
-    font-size: 2em;
     margin-left: 10%;
     display: block;
     color: white;
@@ -118,6 +130,10 @@ a:hover {
 }
 
 @media screen and (max-width: 500px) {
+
+  #title {
+    font-size:1em;
+  }
 
   header {
     height: 50px;
