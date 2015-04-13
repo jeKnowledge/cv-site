@@ -56,6 +56,14 @@ html, body {
   background: white;
 }
 
+#festas {
+  width: 250px;
+}
+
+#festas h1 {
+  white-space: nowrap;
+}
+
 .text-box {
   margin-right: 20%;
   margin-left: 20%;
