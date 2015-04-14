@@ -75,6 +75,10 @@ nav {
   display:none;
 }
 
+#whoare {
+  border-top: 2px solid white;
+}
+
 a:hover {
   text-decoration: none;
 }
