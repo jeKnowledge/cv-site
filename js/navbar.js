@@ -9,7 +9,7 @@ function resetCSS(sections) {
 $(document).scroll(function () {
   var scroll_top = $(document).scrollTop();
   var scroll_bot = $(window).scrollTop();
-  var sections = { '#quem-somos': '#whoare',
+  var sections = { '#quem-somos': '#navigator',
                    '#traditions':'#tradicoes',
                    '#festas': '#party',
                    '#documents': '#docs',
