@@ -182,6 +182,14 @@ a:hover {
 
 @media screen and (max-width: 500px) {
 
+  #title-container {
+    width: 150px;
+  }
+
+  .responsive-menu {
+    margin-top:40px;
+  }
+
   #title {
     font-size:1em;
   }
