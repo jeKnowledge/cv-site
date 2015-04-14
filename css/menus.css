@@ -199,21 +199,19 @@
   }
 
   .img-filer {
-    -webkit-filter: opacity(.4);
-    filter: opaticy(0.4);
+    -webkit-filter: opacity(.3);
+    filter: opaticy(0.3);
   }
 
   .minimum {
-    font-size: 3.5em;
+    font-size: 4em;
     z-index: 90;
     position: absolute;
-    bottom:0;
-    top: 150px;
+    top: 50%;
     left: 0px;
     width: 100%;
     display: inline-block;
     color: black;
-    padding-bottom: 100%;
   }
 }
 

@@ -40,21 +40,33 @@
 }
 
 @media screen and (max-width: 500px) {
+
+  #documents-section {
+    margin-top:0%;
+  }
   
  .text-edition:link, .text-edition:visited, .text-edition {
     font-size: 2em;
   }
 
+  .text-bx2 {
+    padding-top: 7%;
+  }
+
+  .text-bx {
+    padding-top:7%;
+  }
+
   .text-bx2 p {
     font-size: 1.1em;
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 15%;
+    padding-right: 15%;
   } 
 
   .text-bx p {
     font-size: 1.1em;
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 15%;
+    padding-right: 15%;
   }
 
   #bigger {
