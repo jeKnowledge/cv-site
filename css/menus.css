@@ -162,17 +162,58 @@
     width: 100%;
   }
 
+  #rasganco:before {
+    content:"";
+  }
+  #candb:before {
+    content:"";
+  }
+
+  #pasta:before {
+    content:"";
+  }
+
+  #costumes:before {
+    content:"";
+  }
+
+  #hierarchy:before {
+    content:"";
+  }
+
+  #insignias:before {
+    content:"";
+  }
+
+  #latada:before {
+    content:"";
+  }
+
+  #queima:before {
+    content:"";
+  }
+
+  .hvr-sweep-to-top:before {
+    z-index: -1;
+    background: none;
+  }
+
+  .img-filer {
+    -webkit-filter: opacity(.4);
+    filter: opaticy(0.4);
+  }
+
   .minimum {
-    font-size: 1.5em;
+    font-size: 3.5em;
     z-index: 100;
     position: absolute;
+    bottom:0;
     top: 150px;
     left: 0px;
     width: 100%;
     display: inline-block;
     color: black;
-    background: rgba(192, 192, 192, 0.8);
-    padding-bottom: 13%;
+    padding-bottom: 100%;
   }
 }
 
