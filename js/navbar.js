@@ -16,7 +16,7 @@ $(document).scroll(function () {
                    '#documents': '#docs',
                    '#foot': '#contact'};
 
-  if($(window).scrollTop() + $(window).height() == $(document).height()){
+  if($(window).scrollTop() + $(window).height() >= $(document).height()){
     resetCSS(sections);
     $('#contact').css({
       "border-top": "2px solid white"
