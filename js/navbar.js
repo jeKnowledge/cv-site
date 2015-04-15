@@ -16,14 +16,21 @@ $(document).scroll(function () {
                    '#documents': '#docs',
                    '#foot': '#contact'};
 
-  $.each(sections, function (key, value) {
-    if (scroll_bot > $(key).position().top) {
-      resetCSS(sections);
-      $(value).css({
-        "border-top": "2px solid white"
-      });
-      
-  }
+  if($(window).scrollTop() + $(window).height() == $(document).height()){
+    resetCSS(sections);
+    $('#contact').css({
+      "border-top": "2px solid white"
+    });
     return;
-  });
+  } else {
+    $.each(sections, function (key, value) {
+      if (scroll_bot > $(key).position().top) {
+        resetCSS(sections);
+        $(value).css({
+          "border-top": "2px solid white"
+        });
+      }
+      return;
+    });
+  }
 })
