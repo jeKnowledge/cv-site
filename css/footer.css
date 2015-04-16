@@ -26,6 +26,7 @@
 }
 
 #contacts h3 {
+  letter-spacing: 1px;
   margin-bottom: 6%;
   font-size: 1.7em; 
 }
@@ -52,6 +53,7 @@
 }
 
 #cpy h3 {
+  letter-spacing: 1px;
   text-transform: capitalize;
   font-size: 1.2em;
   margin-bottom: 7%;
