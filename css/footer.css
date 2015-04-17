@@ -1,5 +1,5 @@
-/*Footer bar*/
-
+/*Footer bar*/ 
+/*general config for footer bar*/
 .footer {
   color: rgb(192,192,192);
   position: absolute;
@@ -21,6 +21,7 @@
   margin-left: 0;
 }
 
+/*contacts section of footer config*/
 #contacts {
   text-align: left;
 }
@@ -37,6 +38,7 @@
   font-size: 1.2em;
 }
 
+/*facebook content and line below it*/
 #footer-line {
   border-top: 2px solid rgb(150, 150, 150);
   width: 20%;
@@ -48,6 +50,7 @@
 
 }
 
+/*copyright section*/
 #cpy {
   text-align: right;
 }
@@ -59,7 +62,10 @@
   margin-bottom: 7%;
 }
 
+/*all the media queries in this file are for
+ reponsive porpuses only and to make it more readable in mobile*/
 @media screen and (max-width: 990px) {
+
   .footer {
     height:12%;
   }  

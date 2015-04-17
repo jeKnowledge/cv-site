@@ -1,3 +1,5 @@
+/*Takes the usual a configs like hightlighting onn hover 
+and when clicked and configuring the font*/
 .text-edition:link, .text-edition:visited, .text-edition{
   font-variant: small-caps;
   text-decoration: none;
@@ -6,15 +8,18 @@
   color: black;
 }
 
+/*the black line*/
 .line-separator {
   border-top: 2px solid black;
   width: 10%;
 }
 
+/*Resets the margin for the documents*/
 #documents-section {
   margin-top:0%;
 }
 
+/*configs for each of the text boxes*/
 .text-bx p {
   padding-right: 20%;
   padding-left: 20%;
@@ -35,12 +40,14 @@
   font-size: 2em;
 }
 
+/*some font config*/
 .doc-info {
   letter-spacing: 1px;
 }
 
 @media screen and (max-width: 500px) {
 
+  /*adjustment for mobile*/
   #documents-section {
     margin-top:0%;
   }

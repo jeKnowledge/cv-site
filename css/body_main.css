@@ -12,6 +12,7 @@ html, body {
   font-family: Volkorn;
 }
 
+/*makes the main image reponsive*/
 .image-resize {
   margin-right: 0px;
   margin-top: 30px;
@@ -25,6 +26,7 @@ html, body {
   height: auto;
 }
 
+/*quem somos section styling*/
 .quem-somos-button-container {
   border: 2px solid black;
   padding: 1%;
@@ -41,6 +43,8 @@ html, body {
   background: white;
 }
 
+
+/*General contaier for titles of sections*/
 .button-container {
   border: 2px solid black;
   padding:1%;
@@ -56,6 +60,7 @@ html, body {
   background: white;
 }
 
+/*festas section*/
 #festas {
   width: 250px;
 }
@@ -64,6 +69,7 @@ html, body {
   white-space: nowrap;
 }
 
+/*Div where you insert text*/
 .text-box {
   margin-right: 20%;
   margin-left: 20%;
@@ -84,6 +90,7 @@ html, body {
 
 @media screen and (max-width: 500px) {
 
+  /*Resizing text prop*/
   .text-box {
     margin-right:10%;
     margin-left:10%;

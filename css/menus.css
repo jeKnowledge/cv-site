@@ -1,3 +1,4 @@
+/*class for insertion of the grid system*/
 .container-fluid {
   padding-right: 0;
   padding-left: 0;
@@ -25,6 +26,7 @@
   height: 200%;
 }
 
+/*Config of each image section*/
 #rasganco:before {
   font-variant: small-caps;
   content: "Rasganço";
@@ -110,7 +112,7 @@
   text-align: center;
 }
 
-
+/*taken out of an animations library of css and configured to our own needs*/
 /*Sweep*/
 .hvr-sweep-to-top {
   display: inline-block;
@@ -156,12 +158,15 @@
   transform: scaleY(1);
 }
 
+
+
 @media only screen and (max-width: 768px) {
   .mobile-container {
     position: relative;
     width: 100%;
   }
 
+  /*Deletes the content presented in the image*/
   #rasganco:before {
     content:"";
   }
@@ -193,11 +198,13 @@
     content:"";
   }
 
+  /*hides the animation*/
   .hvr-sweep-to-top:before {
     z-index: -1;
     background: none;
   }
 
+  /*makes the title and the color fixed with a filter applied on the image*/
   .img-filer {
     -webkit-filter: opacity(.3);
     filter: opaticy(0.3);

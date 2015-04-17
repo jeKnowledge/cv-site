@@ -1,8 +1,8 @@
 
 /*Header bar*/
 
+/*General*/
 body {
-  font-family: Volkorn;
   line-height: 1.25em;
   text-align: center;
   position: relative;
@@ -25,41 +25,18 @@ nav {
   margin-right: 2%!important;
 }
 
-#title-container {
-  float: left;
-  margin-left: 2%;
-  margin-top:30px;
-  width:430px;
-}
-
-.menu {
-  list-style: none;
-  font-size: 1.4em;
-}
-
-.menu li {
-  display:inline-block;
-  float:left;
-}
-
-.menu hr {
-  border-top: 2px solid black;
-  width: 100%;
-}
-
 /*all the font specs come here*/
 .font-spec {
   font-variant: small-caps;
   letter-spacing: 1px;
 }
 
-.sections a:link, a:visited, a {
-  text-decoration: none;
-  padding-right: 20px;
-  text-align: center;
+
+/*Title handler part*/
+#title-container {
+  float: left;
+  margin-left: 2%;
   margin-top:30px;
-  display: block;
-  color: white;
 }
 
 #title {
@@ -71,6 +48,31 @@ nav {
   float: left;
 }
 
+/*navigator menu*/
+
+.menu {
+  font-size: 1.4em;
+}
+
+.menu li {
+  float:left;
+}
+
+.menu hr {
+  border-top: 2px solid black;
+  width: 100%;
+}
+
+.sections a:link, a:visited, a {
+  text-decoration: none;
+  padding-right: 20px;
+  margin-top:30px;
+  display: block;
+  color: white;
+}
+
+
+/*menu button will only show on media query*/
 #menu-container {
   display:none;
 }
@@ -88,6 +90,7 @@ a:hover {
 }
 
 @media screen and (max-width: 920px) {
+  /*change of sizes and divides the name by \n*/
   #title-container {
     width: 250px;
     margin-top: 15px;
@@ -101,19 +104,36 @@ a:hover {
 }
 
 @media screen and (max-width: 725px) {
+  /*Part when the menu no longer is a nav bar but a button instead*/
+
+  nav {
+    margin-top: 4%!important;
+    margin-right:0%!important;
+  }
+
   .menu {
     display: none;
   }
 
-/*  .menu-btn div {
-    position:absolute;
-    left: 100%;
-    top: 64%;
-    padding-right: 8px;
-    margin-top: -0.5em;
-    vertical-align: middle;
+  #menu-container {
+    display: block;
+    width: 50px;
     z-index:99;
-  } */
+    margin-right:50px;
+  }
+
+  #menu-font {
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  #menu-bar {
+   border: 1px solid white;
+   width: 95%;
+   margin-top: 10%;
+  }
 
   .responsive-menu {
     background: black;
@@ -152,36 +172,11 @@ a:hover {
     float: left;
   }
 
-  nav {
-    margin-top: 4%!important;
-    margin-right:0%!important;
-  }
-  
-  #menu-container {
-    display: block;
-    width: 50px;
-    z-index:99;
-    float:right;
-    margin-right:50px;
-  }
-
-  #menu-font {
-    color: white;
-    font-size: 2em;
-    text-align: center;
-    text-decoration: none;
-  }
-
-  #menu-bar {
-   border: 1px solid white;
-   width: 95%;
-   margin-top: 10%;
-  }
-
 }
 
 @media screen and (max-width: 500px) {
 
+  /*Just resizing*/
   #title-container {
     width: 150px;
   }
